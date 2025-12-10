@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 65%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+}
+
+.main-navigation{
+    position: fixed;
+    top: 50 px;
+    left: 50px;
+    width: 300px;
+    z-index: 100;
+}
+
+h1 {
+    font-family: Garamond;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1.4;
+    color: black;
+    font-weight:lighter;
+    text-align: left;
+}
+
+nav {
+    display: block;
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+

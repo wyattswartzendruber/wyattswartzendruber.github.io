@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+
+.main-navigation{
+    position: fixed;
+    top: 0;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.main-navigation nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.main-navigation a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+h1 {
+    font-family: Garamond;
+    font-size: 20px;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 0 20px;
+    padding-right: 200px;
+    line-height: 1.4;
+    color: black;
+    font-weight:lighter;
+    text-align: left;
+}
+
+h2 {
+    font-family: Garamond;
+    font-size: 16px;
+    font-style: italic;
+    max-width: 600px;
+    line-height: 1.4;
+    color: black;
+    font-weight:lighter;
+    text-align: right;
+}
+
+div.column {
+    width: 150px;
+    float: left;
+    margin: 150px;
+    padding: 5px;;
+}
+
+a {
+    color: black;
+}
+
+.main-content{
+     margin: 200px 45px 20px; 
+}
